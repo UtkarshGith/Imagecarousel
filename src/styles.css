@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
+#app {
+  position: relative;
+}
+
+#backward {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  cursor: pointer;
+}
+
+#forward {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  cursor: pointer;
+}
